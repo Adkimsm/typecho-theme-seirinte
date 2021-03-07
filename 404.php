@@ -2428,9 +2428,9 @@ document.addEventListener('DOMContentLoaded', onDocumentLoad);
       </div>
     </div>
     <div id="game-buttons" jsdisplay="!!showGameButtons" jstcache="1">
-      <span id="game-message" jscontent="playGameMsg" jstcache="5">想在等待时去Adkinsm首页逛逛吗?</span>
+
       <div class="managed-icon" jsdisplay="!!disabledGame" jstcache="6" style="display: none;"></div>
-      <a href="https://www.adkinsm.top/"><button id="game-button" onclick="launchGame()" jsselect="gameButton" jscontent="msg" jstcache="7">去逛逛</button></a>
+      <a href="<?php $this ->options->siteUrl();"><button id="game-button" onclick="launchGame()" jsselect="gameButton" jscontent="msg" jstcache="7">返回首页</button></a>
     </div>
   </div>
   <div id="sub-frame-error" jstcache="0">
