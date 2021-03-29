@@ -1,11 +1,12 @@
 <?php
 /**
  * 移植皮皮凛凛姬的首页为Typecho主题
+ * 更新地址 https://github.com/Adkinsm2020/typecho-theme-seirinte/
  * 
  * 
  * @package SeirinTe
  * @author Adkinsm
- * @version 0.98
+ * @version 0.99
  * @link https://www.adkinsm.top/
  */
 if (!defined('__TYPECHO_ROOT_DIR__')) exit;
@@ -25,16 +26,7 @@ if (!defined('__TYPECHO_ROOT_DIR__')) exit;
                     </div>
                 </div>
                 
-                <div class="rin-card-part" id="contact">
-                    <div class="rin-card-title2 mdui-typo"><a href="#contact">#</a> 咱生活的地方</div>
-
-
-                    <a class="mdui-btn mdui-btn-raised rin-btn rin-btn-pink mdui-text-capitalize" href="<?php $this->options->bilibililink();?>" target="_blank"><span class="iconfont iconbilibili"></span> Bilibili</a>
-                    <a class="mdui-btn mdui-btn-raised rin-btn rin-btn-black mdui-text-capitalize" href="<?php $this->options->githublink();?>" target="_blank"><span class="iconfont icongithub"></span> Github</a>
-                    <a class="mdui-btn mdui-btn-raised rin-btn rin-btn-blue mdui-text-capitalize" href="<?php $this->options->maillink();?>" target="_blank"><span class="iconfont iconmail_fill"></span> Mail</a>
-
-                </div>
-
+                
                 <div class="rin-card-part" id="article">
                     <div class="rin-card-title2 mdui-typo"><a href="#article">#</a> 文章</div>
 
