@@ -3,7 +3,7 @@
                 <div class="rin-logo">
                     <img src="<?php $this->options->avatarimg();?>">
                 </div>
-                <div class="rin-left-title"><?php $this->options->title();?></div>
+                <a href="<?php $this->options->siteUrl();?>"><div class="rin-left-title"><?php $this->options->title();?></div></a>
                 <div class="rin-left-title2"><?php $this->options->bloggername();?></div>
                 <div class="rin-left-slogan">「<?php $this->options->blogbiaoyu();?>」</div>
                 <a href="<?php $this->options->feedUrl(); ?>" class="mdui-btn mdui-btn-raised rin-btn rin-btn-blue rin-btn-left mdui-text-capitalize">RSS</a>
